@@ -1,0 +1,54 @@
+.stickytooltip{
+    box-shadow: 5px 5px 8px #818181; /*shadow for CSS3 capable browsers.*/
+    -webkit-box-shadow: 5px 5px 8px #818181;
+    -moz-box-shadow: 5px 5px 8px #818181;
+    display:none;
+    position:absolute;
+    display:none;
+    border-radius: 3px;
+    background:white;
+    z-index:3000;
+    text-align: center;
+    padding: 10px
+    }
+    
+    
+    .stickytooltip .stickystatus{ /*Style for footer bar within tooltip*/
+    background:black;
+    color:white;
+    padding-top:5px;
+    text-align:center;
+    font:bold 11px Arial;
+    }
+    
+    
+    #position .fts .item .content {padding-left: 35px}
+    #position .fts .item .content li {font-size: 14px;padding-bottom: 6px}
+    
+    
+    .education span { position: absolute; margin-left: -31px; border: solid 1px transparent; width: 23px; height: 23px; border-radius: 20px; line-height: 23px; background: #664f66; color: #fff; font-size: 13px; text-align: center; }
+    .foodbeverage span { position: absolute; margin-left: -31px; border: solid 1px transparent; width: 23px; height: 23px; border-radius: 20px; line-height: 23px; background: #8d8d99; color: #fff; font-size: 13px; text-align: center; }
+    .shopentertainment span { position: absolute; margin-left: -31px; border: solid 1px transparent; width: 23px; height: 23px; border-radius: 20px; line-height: 23px; background: #db8591; color: #fff; font-size: 13px; text-align: center; }
+    .consulategeneral span { position: absolute; margin-left: -31px; border: solid 1px transparent; width: 23px; height: 23px; border-radius: 20px; line-height: 23px; background: #a8bdc6; color: #575756; font-size: 13px; text-align: center; }
+    .health span { position: absolute; margin-left: -31px; border: solid 1px transparent; width: 23px; height: 23px; border-radius: 20px; line-height: 23px; background: #d8c2bf; color: #575756; font-size: 13px; text-align: center; }
+    
+    @media screen and (min-width: 1200px) {
+        #position .abs img{margin-top: -35px}
+    }
+    @media screen and (max-width: 600px) {
+        .serenity-map-mobile img{max-width: 170%;margin-left: -70%}
+        #position .abs {height: 525px}
+    }
+    @media screen and (max-width: 500px) {
+        #position .sec-title {font-size: 37px;}
+        .serenity-map-mobile img{max-width: 170%;margin-left: -70%}
+        #position .abs {height: 375px;margin-bottom: 0;}
+    }
+    @media screen and (max-width: 400px) {
+        .serenity-map-mobile img{max-width: 170%;margin-left: -70%}
+        #position .abs {height: 350px;}
+    }
+    @media screen and (max-width: 320px) {
+        #position .abs {height: 300px;}
+        #position .sec-title {font-size: 31px;}
+    }

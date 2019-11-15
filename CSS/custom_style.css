@@ -1,0 +1,133 @@
+.news-content img{
+    width: 100%;
+    height: auto;
+    transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;   
+     margin: 0 auto;
+}
+.news-content p{
+    text-align: justify;
+}
+.news-img img {
+    width: 100%;
+    padding-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.news-img{
+    padding: 0px 0
+}
+.padding-bottom-30,.bottom-news p a{
+    text-transform: lowercase;
+    /*text-transform: capitalize;*/
+}
+.padding-bottom-30,.bottom-news p:first-letter{
+    text-transform: capitalize;
+}
+#active_hardcode a:after{
+    bottom: -9px !important;
+    border-bottom: 7px solid #D19452 !important;
+}
+/*.news-content taimg
+{
+    width: 100%;
+    height: auto;
+    transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+     margin: 0 auto; 
+}*/
+/*.padding-bottom-30,.bottom-news p a{
+    text-transform: lowercase;
+}
+.news-img {
+    padding: 0px 0;
+}
+.news-img img {
+    max-width: 100%;
+    padding-bottom: 0px; 
+    display: block;
+    margin: 0 auto;
+}
+table tr td{
+    width: 500px;
+}
+.news-content h4{
+    text-align: center;
+    font-style: italic;
+}*/
+.btn-call {
+    position: fixed;
+    top: 200px;
+    z-index: 999;
+    right: 10px;
+}
+/*
+.fp-controlArrow.fp-prev:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #fff;
+    font-size: 28px;
+    padding-right: 5px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    opacity: 0.7;
+}
+.fp-controlArrow.fp-prev {
+    left: 15px; 
+    width: 0; 
+    border-width: 0;
+    border-color: inherit;
+    background: url('../images/arrow_prev.png');
+}
+
+.fp-controlArrow.fp-next:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #fff;
+    font-size: 28px;
+    padding-left: 5px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    opacity: 0.7;
+}
+.fp-controlArrow.fp-next {
+    right: 15px; 
+    width: 0; 
+    border-width: 0;
+    border-color: inherit;
+    background: url('../images/arrow_next.png');
+}*/
+
+.fp-controlArrow {
+    position: absolute;
+    width: 39px; /* This can be added here so you don't have to set a width and height 2 times for each arrow, this will create one width for both arrows */
+    height: 59px; /* This does the same as above */
+    /*margin-top:-64px;*/ /* This value must always be half of the height - This does the same as above */
+    margin-top: 10px;
+    z-index: 4;
+    cursor: pointer;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fp-controlArrow.fp-prev {
+    width: 39px;
+    left: 0;
+    background: url(../images/arrow_prev.png) no-repeat;
+}
+.fp-controlArrow.fp-next {
+    width: 39px; 
+    right:0;
+    background: url(../images/arrow_next.png) no-repeat;
+}
